@@ -75,6 +75,42 @@ const Footer = () => {
           ))}
         </div>
 
+        {/* Newsletter */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="glass-card p-8 lg:p-12 relative overflow-hidden"
+        >
+          {/* Background gradient */}
+          <div className="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-accent-500/5" />
+          
+          <div className="relative grid lg:grid-cols-2 gap-8 items-center">
+            <div>
+              <h3 className="text-2xl font-display font-bold mb-4">
+                Stay Updated
+              </h3>
+              <p className="text-gray-400 text-sm mb-6">
+                Get the latest news, updates, and insights from OpusAI delivered to your inbox.
+              </p>
+            </div>
+            <form className="flex gap-4">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="flex-1 px-4 py-3 rounded-lg bg-white/5 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-white/30 transition-all"
+              />
+              <button
+                type="submit"
+                className="px-6 py-3 bg-gradient-to-r from-red-600 to-red-500 rounded-lg text-white font-semibold hover:shadow-lg shadow-red-500/25 transition-all duration-300"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </motion.div>
+
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
             © {currentYear} OpusAI, Inc. All rights reserved.

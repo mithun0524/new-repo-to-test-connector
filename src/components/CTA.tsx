@@ -61,8 +61,9 @@ const CTA = () => {
               <motion.button
                 whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(255,255,255,0.3)" }}
                 whileTap={{ scale: 0.95 }}
-                className="group flex items-center justify-center gap-2 px-8 py-4 bg-white rounded-xl text-gray-900 font-semibold text-lg"
+                className="group flex items-center justify-center gap-2 px-8 py-4 bg-white rounded-xl text-gray-900 font-semibold text-lg shadow-lg hover:shadow-white/30 transition-all duration-300"
               >
+                <Sparkles className="w-5 h-5 animate-pulse" />
                 Get Started Free
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.button>
@@ -70,7 +71,7 @@ const CTA = () => {
               <motion.button
                 whileHover={{ scale: 1.05, backgroundColor: 'rgba(255,255,255,0.1)' }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-white/10 border border-white/30 rounded-xl text-white font-semibold text-lg hover:bg-white/20 transition-all"
+                className="px-8 py-4 bg-white/10 border border-white/30 rounded-xl text-white font-semibold text-lg hover:bg-white/20 transition-all duration-300"
               >
                 Schedule Demo
               </motion.button>

@@ -54,8 +54,9 @@ const Hero = () => {
               <motion.button
                 whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(239, 68, 68, 0.4)" }}
                 whileTap={{ scale: 0.95 }}
-                className="group flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-red-600 to-red-500 rounded-xl text-white font-semibold text-lg shadow-lg shadow-red-500/25"
+                className="group flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-red-600 to-red-500 rounded-xl text-white font-semibold text-lg shadow-lg shadow-red-500/25 hover:shadow-red-500/50 transition-all duration-300"
               >
+                <Sparkles className="w-5 h-5 animate-pulse" />
                 Start Free Trial
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.button>
@@ -63,7 +64,7 @@ const Hero = () => {
               <motion.button
                 whileHover={{ scale: 1.05, backgroundColor: 'rgba(255,255,255,0.1)' }}
                 whileTap={{ scale: 0.95 }}
-                className="group flex items-center justify-center gap-2 px-8 py-4 bg-white/5 border border-white/20 rounded-xl text-white font-semibold text-lg hover:bg-white/10 transition-all"
+                className="group flex items-center justify-center gap-2 px-8 py-4 bg-white/5 border border-white/20 rounded-xl text-white font-semibold text-lg hover:bg-white/10 transition-all duration-300"
               >
                 <Play className="w-5 h-5" />
                 Watch Demo

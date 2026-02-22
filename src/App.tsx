@@ -10,6 +10,7 @@ import Pricing from './components/Pricing'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 import AnimatedBackground from './components/AnimatedBackground'
+import SignIn from './components/SignIn'
 
 function App() {
   const { scrollYProgress } = useScroll()
