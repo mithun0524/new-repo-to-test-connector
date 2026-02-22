@@ -5,7 +5,7 @@ import { useRef, useState, useEffect } from 'react'
 const stats = [
   { value: 99.9, suffix: '%', label: 'Uptime SLA', description: 'Reliable service you can count on' },
   { value: 10, suffix: 'M+', label: 'API Requests', description: 'Processed daily' },
-  { value: 500, suffix: 'K+', label: 'Active Users', description: 'Trust NexusAI worldwide' },
+  { value: 500, suffix: 'K+', label: 'Active Users', description: 'Trust OpusAI worldwide' },
   { value: 150, suffix: '+', label: 'Countries', description: 'Global infrastructure' }
 ]
 

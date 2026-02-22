@@ -48,7 +48,7 @@ const CTA = () => {
             </h2>
 
             <p className="text-lg text-white/90 max-w-2xl mx-auto mb-10">
-              Join thousands of companies already using NexusAI to work smarter, not harder. Start your free trial today.
+              Join thousands of companies already using OpusAI to work smarter, not harder. Start your free trial today.
             </p>
 
             <motion.div

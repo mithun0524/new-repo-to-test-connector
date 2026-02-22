@@ -6,7 +6,7 @@ const plans = [
   {
     name: 'Starter',
     price: 'Free',
-    description: 'Perfect for exploring NexusAI',
+    description: 'Perfect for exploring OpusAI',
     features: [
       '1,000 API calls/month',
       'Basic AI models',

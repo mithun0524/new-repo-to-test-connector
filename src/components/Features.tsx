@@ -44,7 +44,7 @@ const features = [
   {
     icon: Clock,
     title: '24/7 Support',
-    description: 'Our dedicated support team is available around the clock to help you succeed with NexusAI.',
+    description: 'Our dedicated support team is available around the clock to help you succeed with OpusAI.',
     gradient: 'from-orange-500 to-orange-600'
   }
 ]

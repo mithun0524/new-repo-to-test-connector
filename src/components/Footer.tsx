@@ -27,7 +27,7 @@ const Footer = () => {
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <span className="text-2xl font-display font-bold text-white">
-                Nexus<span className="gradient-text">AI</span>
+                Opus<span className="gradient-text">AI</span>
               </span>
             </motion.a>
             <p className="text-gray-400 text-sm mb-6 max-w-xs">
@@ -77,7 +77,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            © {currentYear} NexusAI, Inc. All rights reserved.
+            © {currentYear} OpusAI, Inc. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-gray-500">
             <a href="#" className="hover:text-white transition-colors">Privacy</a>

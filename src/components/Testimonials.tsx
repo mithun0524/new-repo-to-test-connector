@@ -7,7 +7,7 @@ const testimonials = [
     name: 'Sarah Chen',
     role: 'CTO at TechFlow',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
-    content: 'NexusAI has transformed how our engineering team works. We\'ve cut our documentation time by 70% and the AI insights have helped us make better product decisions.',
+    content: 'OpusAI has transformed how our engineering team works. We\'ve cut our documentation time by 70% and the AI insights have helped us make better product decisions.',
     rating: 5
   },
   {
@@ -21,7 +21,7 @@ const testimonials = [
     name: 'Elena Rodriguez',
     role: 'VP Engineering at CloudBase',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face',
-    content: 'We evaluated 10+ AI platforms and NexusAI stood out. The accuracy, speed, and ease of integration are unmatched. It\'s become essential to our stack.',
+    content: 'We evaluated 10+ AI platforms and OpusAI stood out. The accuracy, speed, and ease of integration are unmatched. It\'s become essential to our stack.',
     rating: 5
   }
 ]
@@ -41,7 +41,7 @@ const Testimonials = () => {
             Loved by <span className="gradient-text">Thousands</span>
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            See what industry leaders are saying about NexusAI.
+            See what industry leaders are saying about OpusAI.
           </p>
         </motion.div>
 

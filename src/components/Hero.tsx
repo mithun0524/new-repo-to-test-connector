@@ -21,7 +21,7 @@ const Hero = () => {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-500/10 border border-primary-500/20 text-primary-400 text-sm font-medium mb-8"
             >
               <Sparkles className="w-4 h-4" />
-              <span>Introducing NexusAI 2.0</span>
+              <span>Introducing OpusAI 2.0</span>
             </motion.div>
 
             <motion.h1
@@ -111,7 +111,7 @@ const Hero = () => {
                       <Sparkles className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-white">NexusAI</div>
+                      <div className="text-sm font-semibold text-white">OpusAI</div>
                       <div className="text-xs text-gray-400">Assistant</div>
                     </div>
                   </div>

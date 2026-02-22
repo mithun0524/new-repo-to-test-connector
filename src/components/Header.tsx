@@ -45,7 +45,7 @@ const Header = () => {
               <Zap className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-display font-bold text-white">
-              Nexus<span className="gradient-text">AI</span>
+              Opus<span className="gradient-text">AI</span>
             </span>
           </motion.a>
 
@@ -74,9 +74,9 @@ const Header = () => {
               Sign In
             </motion.button>
             <motion.button
-              whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(14, 165, 233, 0.4)" }}
+              whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(239, 68, 68, 0.4)" }}
               whileTap={{ scale: 0.95 }}
-              className="px-6 py-2.5 text-sm font-semibold bg-gradient-to-r from-primary-600 to-accent-600 rounded-lg text-white glow"
+              className="px-6 py-2.5 text-sm font-semibold bg-gradient-to-r from-red-600 to-red-500 rounded-lg text-white shadow-lg shadow-red-500/25"
             >
               Get Started Free
             </motion.button>
@@ -117,7 +117,7 @@ const Header = () => {
                   <button className="w-full px-4 py-2.5 text-sm font-medium text-gray-300 hover:text-white transition-colors text-center">
                     Sign In
                   </button>
-                  <button className="w-full px-6 py-2.5 text-sm font-semibold bg-gradient-to-r from-primary-600 to-accent-600 rounded-lg text-white">
+                  <button className="w-full px-6 py-2.5 text-sm font-semibold bg-gradient-to-r from-red-600 to-red-500 rounded-lg text-white shadow-lg shadow-red-500/25">
                     Get Started Free
                   </button>
                 </div>
